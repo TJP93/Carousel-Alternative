@@ -1,0 +1,1 @@
+A different method to a slider/image carousel than previously used in SHIFT-CLICK project.
