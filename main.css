@@ -1,0 +1,57 @@
+body {
+    display: grid;
+    place-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+h1 {
+    font-size: 2.5rem;
+
+}
+
+.slider-container {
+    border: 5px solid blueviolet;
+    width: 80vw;
+    margin: 0 auto;
+    height: 40vh;
+    max-width: 80rem;
+    position: relative;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin-top: 4rem;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 140, 255);
+    color: white;
+    display: grid;
+    place-items: center;
+    transition: all 0.25s ease-in-out;
+    text-align: center;
+}
+
+.slide-img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.75rem;
+}
+
+.prevButton,
+.nextButton {
+  background: transparent;
+  border-color: transparent;
+  font-size: 1.75rem;
+  cursor: pointer;
+  margin: 0 0.25rem;
+  letter-spacing: 2px;
+}
